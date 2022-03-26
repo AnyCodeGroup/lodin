@@ -56,3 +56,25 @@ leetcode https://leetcode.com/
 프로그래머스 https://programmers.co.kr/learn/challenges  
 코드워즈 https://www.codewars.com/  
 백준 https://www.acmicpc.net/
+
+22.03.27 ... spa로 구현.
+fork : https://github.com/dcode-youtube/single-page-app-vanilla-js
+fork : https://github.com/MichaelCurrin/single-page-app-vanilla-js
+음... 공부가 더 필요하다.
+
+## 모듈 설치
+
+    npm i webpack webpack-cli webpack-dev-server -D
+
+clean-webpack-plugin - 빌드 결과물(dist)을 초기화  
+css-loader - css 사용을 위한 로더  
+handlebars - html template를 사용하기 위한 템플릿 엔진  
+handlebars-loader - webpack에서 handlebars를 사용하기 위한 로더  
+mini-css-extract-plugin - css 결과물을 내보내기 위한 플러그인  
+html-webpack-plugin - entry를 html에 동적 삽입과 html 결과물을 내보내기 위한 플러그인
+
+    npm i clean-webpack-plugin css-loader handlebars handlebars-loader mini-css-extract-plugin html-webpack-plugin -D
+
+babel-loader
+
+    npm i --save-dev babel-loader babel-core babel-preset-env
