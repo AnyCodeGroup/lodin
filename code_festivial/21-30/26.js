@@ -10,3 +10,5 @@ const solution = function () {
 
 }
 solution();
+
+// key, value 형식으로 하는게 보다 깔끔했을듯...

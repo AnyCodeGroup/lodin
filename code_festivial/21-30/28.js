@@ -6,4 +6,7 @@ const solution = function () {
       arr.push(a[i] + a[i + 1])
     }
   }
+  console.log(arr)
 }
+
+// 굳이... 배열로 바꿀 필요가 없네;;?

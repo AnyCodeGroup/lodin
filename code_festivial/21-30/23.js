@@ -1,5 +1,6 @@
 const solution = function () {
-  let a = if (10 / 3 == 3) {
+  let a = new Boolean()
+  if (10 / 3 == 3) {
     a = true;
   } else {
     a = false;
@@ -7,3 +8,4 @@ const solution = function () {
 
   console.log(a)
 }
+solution()
