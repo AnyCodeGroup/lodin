@@ -1,3 +1,4 @@
+// 05:16
 // 반장 선거
 
 let str = prompt("후보를 입력하세요")
@@ -43,3 +44,4 @@ if (isMaxDup(count)) {
   console.log(`${maxIndex}(이)가 총 ${max}표로 반장이 되었습니다.`)
 
 }
+// 06:15
