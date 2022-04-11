@@ -13,3 +13,4 @@ const solution = function (n) {
   return count;
 }
 solution(1000); // 301
+w
